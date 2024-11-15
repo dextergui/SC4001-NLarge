@@ -1,5 +1,10 @@
 # SC4001 NLarge
 
+## Team Members
+Joel Chng Ming Xuan (U2121344D)
+Gui Zhang Yan Dexter (U2121991C)
+Nalin Sharma (U2121904E)
+
 ## Purpose of Project
 
 NLarge is a project focused on exploring and implementing various data
