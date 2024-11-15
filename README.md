@@ -58,7 +58,7 @@ NLarge library as a toolkit for data augmentation.
 
 ### Compute limitation
 
-Should you face computational limitation, you can use the datasets that we 
+Should you face computational limitation, you can use the datasets that we
 have preprocessed and saved in the `example/llm-dataset/` directory. As the inference
 time for the Large Language Models (LLMs) can be quite long, we have preprocessed
 in advance such that end users can directly use the preprocessed datasets for
@@ -66,7 +66,7 @@ training and testing purposes.
 
 ## Development
 
-While the library has been developed and tested, the library can be easily 
+While the library has been developed and tested, the library can be easily
 extended with additional data augmentation techniques or with new models to
 support the testing and research of the performance of different augmentation
 techniques.
@@ -80,7 +80,7 @@ You can access the PiPy page of the project from the link here:
 [pypi page](https://pypi.org/project/NLarge/)
 
 Our github repository can be found here:
-[github page](https://github.com/dextergui/SC4001)
+[github page](https://github.com/dextergui/SC4001-NLarge)
 
 ## Contributing
 
