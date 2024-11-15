@@ -1,0 +1,110 @@
+@misc{promptingguide,
+  title = {Prompt Engineering Guide: The Ultimate Guide to Generative AI},
+  author = {Prompt Engineering Guide},
+  year = {2024},
+  url = {https://www.promptingguide.ai/introduction/basics},
+  note = {Accessed: 2024-10-22}
+}
+
+@article{DBLP:journals/corr/abs-2105-03075,
+  author       = {Steven Y. Feng and
+                  Varun Gangal and
+                  Jason Wei and
+                  Sarath Chandar and
+                  Soroush Vosoughi and
+                  Teruko Mitamura and
+                  Eduard H. Hovy},
+  title        = {A Survey of Data Augmentation Approaches for {NLP}},
+  journal      = {CoRR},
+  volume       = {abs/2105.03075},
+  year         = {2021},
+  url          = {https://arxiv.org/abs/2105.03075},
+  eprinttype    = {arXiv},
+  eprint       = {2105.03075},
+  timestamp    = {Fri, 14 May 2021 12:13:30 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2105-03075.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{li-specia-2019-improving,
+    title = "Improving Neural Machine Translation Robustness via Data Augmentation: Beyond Back-Translation",
+    author = "Li, Zhenhao  and
+      Specia, Lucia",
+    editor = "Xu, Wei  and
+      Ritter, Alan  and
+      Baldwin, Tim  and
+      Rahimi, Afshin",
+    booktitle = "Proceedings of the 5th Workshop on Noisy User-generated Text (W-NUT 2019)",
+    month = nov,
+    year = "2019",
+    address = "Hong Kong, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/D19-5543",
+    doi = "10.18653/v1/D19-5543",
+    pages = "328--336",
+    abstract = "Neural Machine Translation (NMT) models have been proved strong when translating clean texts, but they are very sensitive to noise in the input. Improving NMT models robustness can be seen as a form of {``}domain{''} adaption to noise. The recently created Machine Translation on Noisy Text task corpus provides noisy-clean parallel data for a few language pairs, but this data is very limited in size and diversity. The state-of-the-art approaches are heavily dependent on large volumes of back-translated data. This paper has two main contributions: Firstly, we propose new data augmentation methods to extend limited noisy data and further improve NMT robustness to noise while keeping the models small. Secondly, we explore the effect of utilizing noise from external data in the form of speech transcripts and show that it could help robustness.",
+}
+
+@inproceedings{wei-zou-2019-eda,
+    title = "{EDA}: Easy Data Augmentation Techniques for Boosting Performance on Text Classification Tasks",
+    author = "Wei, Jason  and
+      Zou, Kai",
+    editor = "Inui, Kentaro  and
+      Jiang, Jing  and
+      Ng, Vincent  and
+      Wan, Xiaojun",
+    booktitle = "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)",
+    month = nov,
+    year = "2019",
+    address = "Hong Kong, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/D19-1670",
+    doi = "10.18653/v1/D19-1670",
+    pages = "6382--6388",
+    abstract = "We present EDA: easy data augmentation techniques for boosting performance on text classification tasks. EDA consists of four simple but powerful operations: synonym replacement, random insertion, random swap, and random deletion. On five text classification tasks, we show that EDA improves performance for both convolutional and recurrent neural networks. EDA demonstrates particularly strong results for smaller datasets; on average, across five datasets, training with EDA while using only 50{\%} of the available training set achieved the same accuracy as normal training with all available data. We also performed extensive ablation studies and suggest parameters for practical use.",
+}
+
+@inproceedings{sahin-steedman-2018-data,
+    title = "Data Augmentation via Dependency Tree Morphing for Low-Resource Languages",
+    author = {{\c{S}}ahin, G{\"o}zde G{\"u}l  and
+      Steedman, Mark},
+    editor = "Riloff, Ellen  and
+      Chiang, David  and
+      Hockenmaier, Julia  and
+      Tsujii, Jun{'}ichi",
+    booktitle = "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing",
+    month = oct # "-" # nov,
+    year = "2018",
+    address = "Brussels, Belgium",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/D18-1545",
+    doi = "10.18653/v1/D18-1545",
+    pages = "5004--5009",
+    abstract = "Neural NLP systems achieve high scores in the presence of sizable training dataset. Lack of such datasets leads to poor system performances in the case low-resource languages. We present two simple text augmentation techniques using dependency trees, inspired from image processing. We {``}crop{''} sentences by removing dependency links, and we {``}rotate{''} sentences by moving the tree fragments around the root. We apply these techniques to augment the training sets of low-resource languages in Universal Dependencies project. We implement a character-level sequence tagging model and evaluate the augmented datasets on part-of-speech tagging task. We show that crop and rotate provides improvements over the models trained with non-augmented data for majority of the languages, especially for languages with rich case marking systems.",
+}
+
+@inproceedings{ding-etal-2024-data,
+    title = "Data Augmentation using {LLM}s: Data Perspectives, Learning Paradigms and Challenges",
+    author = "Ding, Bosheng  and
+      Qin, Chengwei  and
+      Zhao, Ruochen  and
+      Luo, Tianze  and
+      Li, Xinze  and
+      Chen, Guizhen  and
+      Xia, Wenhan  and
+      Hu, Junjie  and
+      Luu, Anh Tuan  and
+      Joty, Shafiq",
+    editor = "Ku, Lun-Wei  and
+      Martins, Andre  and
+      Srikumar, Vivek",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2024",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-acl.97",
+    doi = "10.18653/v1/2024.findings-acl.97",
+    pages = "1679--1705",
+    abstract = "In the rapidly evolving field of large language models (LLMs), data augmentation (DA) has emerged as a pivotal technique for enhancing model performance by diversifying training examples without the need for additional data collection. This survey explores the transformative impact of LLMs on DA, particularly addressing the unique challenges and opportunities they present in the context of natural language processing (NLP) and beyond. From both data and learning perspectives, we examine various strategies that utilize LLMs for data augmentation, including a novel exploration of learning paradigms where LLM-generated data is used for diverse forms of further training. Additionally, this paper highlights the primary open challenges faced in this domain, ranging from controllable data augmentation to multi-modal data augmentation. This survey highlights a paradigm shift introduced by LLMs in DA, and aims to serve as a comprehensive guide for researchers and practitioners.",
+}
