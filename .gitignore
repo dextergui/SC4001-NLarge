@@ -175,7 +175,6 @@ cython_debug/
 #.idea/
 report/*.gz
 report/*.bbl
-report/*.pdf
 **/log.txt
 .DS_Store
 **/best_model.pt
